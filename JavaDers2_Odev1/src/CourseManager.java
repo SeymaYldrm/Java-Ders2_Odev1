@@ -1,11 +1,11 @@
 public class CourseManager {
 	
 	public void addCourse(Course course) {
-		System.out.println(course.courseName + " Kursunuz Eðitim Listenize Eklendi.");
+		System.out.println(course.courseName + " Kursunuz EÄŸitim Listenize Eklendi.");
 	}
 	
 	public void deleteCourse(Course course) {
-		System.out.println(course.courseName + " Kursunuz Eðitim Listenizden Silindi.");
+		System.out.println(course.courseName + " Kursunuz EÄŸitim Listenizden Silindi.");
 	}
 	
 }
