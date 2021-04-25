@@ -3,12 +3,12 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		User user1 = new User(1,"Şeyma","Yıldırım","seyma@gmail.com","12345");
+		User user1 = new User(1,"Åeyma","YÄ±ldÄ±rÄ±m","seyma@gmail.com","12345");
 		
 		User user2 = new User();
 		user2.userId = 2;
 		user2.name = "Neslihan";
-		user2.lastName = "Yıldırım";
+		user2.lastName = "YÄ±ldÄ±rÄ±m";
 		user2.mail = "nesli@gmail.com";
 		user2.password = "12345";
 		
@@ -21,13 +21,13 @@ public class Main {
 		Course course1 = new Course();
 		course1.id = 1;
 		course1.courseName = "Angular";
-		course1.detail = "Yazılım Geliştirici Yetiştime Kursu";
+		course1.detail = "YazÄ±lÄ±m GeliÅŸtirici YetiÅŸtime Kursu";
 		course1.educatorName = "Engin Demirog";
 		
 		Course course2 = new Course();
 		course2.id = 2;
 		course2.courseName = "Java";
-		course2.detail = "Yazılım Geliştirici Yetiştime Kursu";
+		course2.detail = "YazÄ±lÄ±m GeliÅŸtirici YetiÅŸtime Kursu";
 		course2.educatorName = "Engin Demirog";
 		
 		UserManager userManager = new UserManager();
