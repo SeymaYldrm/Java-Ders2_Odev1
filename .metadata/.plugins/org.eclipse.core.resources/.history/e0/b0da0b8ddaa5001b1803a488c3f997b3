@@ -1,0 +1,7 @@
+
+public class CourseManager {
+	int id;
+	String courseName;
+	String detail;
+	String educatorName;
+}

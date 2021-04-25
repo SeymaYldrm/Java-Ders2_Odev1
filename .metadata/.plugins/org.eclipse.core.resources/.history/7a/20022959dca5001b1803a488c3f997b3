@@ -1,0 +1,28 @@
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		User user1 = new User(1,"Þeyma","Yýldýrým","seyma@gmail.com","12345");
+		
+		User user2 = new User();
+		user2.userId = 2;
+		user2.name = "Neslihan";
+		user2.lastName = "Yýldýrým";
+		user2.mail = "nesli@gmail.com";
+		user2.password = "12345";
+		
+		Course course1 = new Course();
+		course1.id = 1;
+		course1.courseName = "Angular";
+		course1.detail = "Yazýlým Geliþtirici Yetiþtime Kursu";
+		course1.educatorName = "Engin Demirog";
+		
+		Course course2 = new Course();
+		course2.id = 2;
+		course2.courseName = "Java";
+		course2.detail = "Yazýlým Geliþtirici Yetiþtime Kursu";
+		course2.educatorName = "Engin Demirog";
+	}
+
+}

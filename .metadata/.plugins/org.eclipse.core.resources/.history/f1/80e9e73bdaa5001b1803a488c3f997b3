@@ -1,0 +1,7 @@
+
+public class userManager {
+	public void adduser(User user) {
+		
+	}
+
+}

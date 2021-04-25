@@ -1,0 +1,11 @@
+public class CourseManager {
+	
+	public void addCourse(User user) {
+		System.out.println("Kurs Eklendi.");
+	}
+	
+	public void deleteCourse(User user) {
+		System.out.println("Kurs Silindi.");
+	}
+	
+}
